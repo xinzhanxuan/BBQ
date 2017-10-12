@@ -1,0 +1,83 @@
+﻿@charset "UTF-8";
+
+
+/*初始化*/
+
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: PingFang SC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Microsoft Yahei, \\5FAE软雅黑, STHeiti, \\534E文细黑, sans-serif;
+	background: #121212;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+caption,th {
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+fieldset, img, input, button {
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline-style: none;
+}
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: "SimSun", "宋体";
+}
+/*清除图片边框以及图片对齐方式*/
+img,button,input,select {
+	border: 0 none;
+	vertical-align:middle;
+}
+
+/* 废物标签利用 */
+s, i, em {
+	font-style: normal;
+	text-decoration: none;
+}
+/* 左右浮动 */
+.fl {
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*清除浮动*/
+.claerfix::before, .clearfix::after {
+	content: "";
+	display: table;
+}
+.claerfix {
+	clear: both;
+}
+/*兼容IE浏览器*/
+.clearfix {
+	*zoom: 1;
+}
+
+.w {
+	width: 1100px;
+	margin: 0 auto;
+}

@@ -1,0 +1,62 @@
+
+#gaomain {
+  width: 980px;
+  height: 350px;
+  margin: 100px auto;
+}
+
+#gaomain ul li {
+  list-style: none;
+  background: rgba(69, 69, 69, .5);
+  height: 105px;
+  width: 180px;
+  float: left;
+  margin: 30px 5px;
+  position: relative;
+}
+
+#gaomain ul li:before {
+  content: "";
+  height: 105px;
+  width: 180px;
+  background: rgba(69, 69, 69, .5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: rotate(60deg);
+}
+
+#gaomain ul li:after {
+  content: "";
+  height: 105px;
+  width: 180px;
+  background: rgba(69, 69, 69, .5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  transform: rotate(-60deg);
+}
+
+#gaomain ul li.mar {
+  margin-left: 100px;
+}
+
+#gaomain ul li img {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  z-index: 2;
+  position: absolute;
+  transition: all 1s;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#gaomain ul li img:hover {
+  transform: rotate(360deg) scale(1.2);
+}

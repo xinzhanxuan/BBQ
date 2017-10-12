@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+}
+body {
+  min-width: 1280px;
+  width: 100%;
+  height: 100%;
+}
+body .navFirst {
+  transition: all 0.5s;
+  min-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  background-color: black;
+  overflow: hidden;
+}
+body .navFirst .navContent {
+  width: 1100px;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body .navFirst .navContent .logo {
+  height: 80px;
+  line-height: 80px;
+  float: left;
+}
+body .navFirst .navContent .logo a {
+  cursor: pointer;
+}
+body .navFirst .navContent .logo a img {
+  transition: all 0.5s;
+  display: inline-block;
+  width: 190px;
+}
+body .navFirst .navContent .navList {
+  float: right;
+  overflow: hidden;
+  height: 80px;
+}
+body .navFirst .navContent .navList ul {
+  height: 80px;
+}
+body .navFirst .navContent .navList ul li {
+  overflow: hidden;
+  height: 80px;
+  float: left;
+  text-align: center;
+  width: 90px;
+  cursor: pointer;
+}
+body .navFirst .navContent .navList ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 80px;
+  color: white;
+}
+body .navFirst .navContent .navList ul li i {
+  float: right;
+  display: inline-block;
+  font-size: 8px;
+  line-height: 80px;
+  height: 80px;
+  color: white;
+}
+body .navFirst2 {
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  background-color: black;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+body .navFirst2 .navContent {
+  width: 1100px;
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body .navFirst2 .navContent .logo {
+  height: 60px;
+  line-height: 60px;
+  float: left;
+}
+body .navFirst2 .navContent .logo a {
+  cursor: pointer;
+}
+body .navFirst2 .navContent .logo a img {
+  transition: all 0.5s;
+  display: inline-block;
+  width: 146px;
+}
+body .navFirst2 .navContent .navList {
+  float: right;
+  overflow: hidden;
+  height: 60px;
+}
+body .navFirst2 .navContent .navList ul {
+  height: 60px;
+}
+body .navFirst2 .navContent .navList ul li {
+  overflow: hidden;
+  height: 60px;
+  float: left;
+  text-align: center;
+  width: 90px;
+  cursor: pointer;
+}
+body .navFirst2 .navContent .navList ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  color: white;
+}
+body .navFirst2 .navContent .navList ul li i {
+  float: right;
+  display: inline-block;
+  font-size: 8px;
+  line-height: 60px;
+  height: 60px;
+  color: white;
+}
+.item-titlezx {
+  text-align: center;
+  animation: txtShadow 5s infinite;
+}
+@keyframes txtShadow {
+  0% {
+    text-shadow: 0 0 0 #ff0;
+  }
+  25% {
+    text-shadow: 0 0 10px #f00;
+  }
+  50% {
+    text-shadow: 0 0 10px #ff0;
+  }
+  75% {
+    text-shadow: 0 0 10px #f0f;
+  }
+  100% {
+    text-shadow: 0 0 0 #ff0;
+  }
+}
+footer {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  min-width: 1280px;
+  height: 122px;
+  background-color: #0A0A0A;
+}
+footer h1,
+footer h3 {
+  margin-top: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}

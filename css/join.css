@@ -1,0 +1,804 @@
+section {
+  width: 100%;
+  min-width: 1366px;
+}
+
+
+/*content开始*/
+.content {
+  width: 100%;
+  background: url(../img/bj/new.jpg) no-repeat;
+  background-size: cover;
+  height: 587px;
+  margin-top: 80px;
+}
+
+.item-title {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  animation: txtShadow 5s infinite;
+}
+
+@keyframes txtShadow {
+  0% {
+    text-shadow: 0 0 0 #ff0;
+  }
+  25% {
+    text-shadow: 0 0 10px #f00;
+  }
+  50% {
+    text-shadow: 0 0 10px #ff0;
+  }
+  75% {
+    text-shadow: 0 0 10px #f0f;
+  }
+  100% {
+    text-shadow: 0 0 0 #ff0;
+  }
+}
+
+.item-title h1 {
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  font-size: 22px;
+}
+
+.item-title h3 {
+  color: #fff;
+  font-weight: 200;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.item-title-join h4 {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+.content .col-6 {
+  width: 367px;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.join-bj {
+  width: 1100px;
+  margin-top: 20px;
+}
+
+.join-bj .item {
+  background: rgba(19, 19, 19, 0.9) none repeat scroll 0 0;
+  height: auto;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.item-join-1 {
+  background: url(../img/icon/icon-zy.png) no-repeat center;
+  background-size: 200px;
+  height: 150px;
+}
+
+.join-bj .item h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+
+.join-bj .item p {
+  color: #e6e6e6;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.item-join-2 {
+  background: url(../img/icon/icon-sf.png) no-repeat center;
+  background-size: 200px;
+  height: 150px;
+}
+
+.roate {
+  animation: mov 5s infinite;
+}
+
+@keyframes mov {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.foodpic {
+  position: relative;
+}
+
+.foodpic img {
+  width: 300px;
+  height: 317px;
+  opacity: 0.7;
+}
+
+.box {
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  opacity: 0.8;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  top:60%;
+}
+
+.box h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(244, 254, 255);
+}
+
+.info {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #999;
+  font-weight: 700;
+}
+.info a{
+  color: white;
+  opacity: 0.6;
+}
+.info a:hover{
+  opacity: 1;
+}
+
+/*content结束*/
+
+/*product开始*/
+#greenx {
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: url("../img/bj/show.png") no-repeat;
+  background-size: 100%;
+}
+
+.item-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.speedy {
+  height: 470px;
+  position: relative;
+  width: 100%;
+  /*background: url("../img/icon/hd-9.jpg") no-repeat center;*/
+  transform-style: preserve-3d;
+  z-index: 2;
+}
+
+.speedy .col-3 {
+  width: 245px;
+  height: 387px;
+  cursor: pointer;
+  text-align: center;
+  background: rgba(106, 106, 106, 0.4) none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 35px;
+  float: left;
+  margin: 0 15px;
+}
+
+.roate_animate {
+  /*animation: mov 5s infinite;*/
+  transition: all 2s;
+  transform: rotateY(360deg);
+}
+
+/*@keyframes mov {*/
+/*from {*/
+/*transform: rotateY(0deg);*/
+/*}*/
+/*to {*/
+/*transform: rotateY(360deg);*/
+/*}*/
+/*}*/
+
+.col-3 img {
+  width: 130px;
+  height: 130px;
+}
+
+.col-3 h2 {
+  height: 225px;
+  height: 32px;
+  margin: 20px 0 20px 0;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 200
+}
+
+.col-3 p {
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.item-mind-1 {
+  background: url("../img/icon/icon-fd1.png") no-repeat center;
+  background-size: 140px;
+  height: 150px;
+  margin-top: 20px;
+  transition: all 2ms;
+}
+
+.col-3:hover .item-mind-1 {
+  background: url("../img/icon/icon-fd1.png") no-repeat center;
+  background-size: 150px;
+  height: 150px;
+  transform: rotate(10deg);
+}
+
+.item-mind-2 {
+  background: url("../img/icon/icon-fd2.png") no-repeat center;
+  background-size: 140px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.col-3:hover .item-mind-2 {
+  background: url("../img/icon/icon-fd2.png") no-repeat center;
+  background-size: 150px;
+  height: 150px;
+  transform: rotate(-10deg);
+  transition: all 2ms;
+}
+
+.item-mind-3 {
+  background: url("../img/icon/icon-fd3.png") no-repeat center;
+  background-size: 140px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.col-3:hover .item-mind-3 {
+  background: url("../img/icon/icon-fd3.png") no-repeat center;
+  background-size: 150px;
+  height: 150px;
+  transform: rotate(10deg);
+  transition: all 2ms;
+}
+
+.item-mind-4 {
+  background: url("../img/icon/icon-fd4.png") no-repeat center;
+  background-size: 140px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.col-3:hover .item-mind-4 {
+  background: url("../img/icon/icon-fd4.png") no-repeat center;
+  background-size: 150px;
+  height: 150px;
+  transform: rotate(-10deg);
+  transition: all 2ms;
+}
+
+/*加盟模式*/
+
+.textbox {
+  width: 100%;
+  height: 550px;
+  background: url("../img/bj/join.jpg") no-repeat;
+}
+
+.textbox .w {
+  position: relative;
+}
+
+.textbox ul {
+  margin: 0 auto;
+  max-width: 520px;
+  min-width: 320px;
+  height: 400px;
+  list-style: none;
+}
+
+.textbox ul li {
+  width: 520px;
+  height: 100px;
+  border-left: 10px solid #000000;
+  margin-top: 10px;
+  position: relative;
+  background-color: #fff;
+  opacity: .5;
+  transition: all 500ms ease-in-out;
+}
+
+.textbox a {
+  text-decoration: none;
+  display: block;
+}
+
+.txt {
+  color: #000;
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.t_h1 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 10px;
+  transition: all 500ms linear;
+}
+
+.t_h2 {
+  font-size: 14px;
+}
+
+.textbox ul li:hover {
+  background: #000;
+  border-color: #ff3300;
+  text-shadow: 3px 1px 4px #ff33ff;
+}
+
+.textbox ul li:hover .t_h1 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.textbox ul li:hover .t_h2 {
+  color: #fff;
+  font-size: 26px;
+}
+
+.textbox .picture1 {
+  position: absolute;
+  top: 220px;
+  margin-top: -112px;
+  left: -80px;
+}
+
+.textbox .picture2 {
+  position: absolute;
+  right: -100px;
+  top: 220px;
+  margin-top: -112px;
+}
+
+.picture1 img, .picture2 img {
+  height: 429px;
+  width: 360px;
+}
+
+/*加盟支持*/
+
+#Taste {
+  width: 100%;
+  height: 1366px;
+  background: #000;
+  margin-bottom: 10px;
+}
+
+#Taste .w {
+  height: 1366px;
+  position: relative;
+}
+
+.pk {
+  position: relative;
+}
+
+.col-4 {
+  cursor: pointer;
+  width: 289px;
+  height: 333px;
+  background: url("../img/icon/icon-lj.png") no-repeat center;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 60px;
+  top: 300px;
+  transition: all 2s;
+  transform-origin: 500px 300px;
+}
+
+.pk:hover .col-4:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.pk:hover .col-4:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.pk:hover .col-4:nth-child(3) {
+  transform: rotate(90deg);
+}
+
+.pk:hover .col-4:nth-child(4) {
+  transform: rotate(135deg);
+}
+
+.pk:hover .col-4:nth-child(5) {
+  transform: rotate(180deg);
+}
+
+.pk:hover .col-4:nth-child(6) {
+  transform: rotate(225deg);
+}
+
+.pk:hover .col-4:nth-child(7) {
+  transform: rotate(270deg);
+}
+
+.pk:hover .col-4:nth-child(8) {
+  transform: rotate(315deg);
+}
+
+.pk:hover .col-4:nth-child(9) {
+  transform: rotate(360deg);
+}
+
+.time-six {
+  font-size: 100px;
+  font-family: '楷体';
+  padding: 30px 20px;
+  color: #fff;
+  height: 270px;
+  line-height: 270px;
+  text-shadow: 0 0 100px #291cff;
+}
+
+.time-six h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.time-six h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.time-six p {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.pk .col-logo {
+  position: absolute;
+  top: 415px;
+  left: 390px;
+}
+
+.time-six-logo {
+  width: 289px;
+  height: 333px;
+  background: url("../img/icon/zh-logo.png") no-repeat center;
+  background-size: 100%;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.breath_light {
+  animation: ease-in-out breath 2500ms infinite alternate;
+}
+
+@keyframes breath {
+  0% {
+    opacity: .2;
+    box-shadow: 0 0px 0px rgb(0, 0, 0);
+  }
+  50% {
+    opacity: .5;
+    box-shadow: 0 0px 300px rgb(0, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    box-shadow: 0 0px 600px rgb(0, 0, 0);
+  }
+}
+
+/*nav*/
+.pc-nav-home a:hover {
+  background: url("../img/nav/home.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.pc-nav-home .home-current {
+  background: url("../img/nav/home.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.pc-nav-food a:hover {
+  background: url("../img/nav/food.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.pc-nav-food .food-current {
+  background: url("../img/nav/food.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.pc-nav-char a:hover {
+  background: url("../img/nav/char.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-char .char-current {
+  background: url("../img/nav/char.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-join a:hover {
+  background: url("../img/nav/join.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-join .join-current {
+  background: url("../img/nav/join.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-ente a:hover {
+  background: url("../img/nav/ente.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-ente .ente-current {
+  background: url("../img/nav/ente.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-menn a:hover {
+  background: url("../img/nav/menn.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.pc-nav-menn .menn-current {
+  background: url("../img/nav/menn.png") no-repeat;
+  background-size: 70px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-home .home-current {
+  background: url("../img/nav/home.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.shrink-nav .pc-nav-home a:hover {
+  background: url("../img/nav/home.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.shrink-nav .pc-nav-food .food-current {
+  background: url("../img/nav/food.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-food a:hover {
+  background: url("../img/nav/food.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-char .char-current {
+  background: url("../img/nav/char.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-char a:hover.char-current {
+  background: url("../img/nav/char.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-join .join-current {
+  background: url("../img/nav/join.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-join a:hover.join-current {
+  background: url("../img/nav/join.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-ente .ente-current {
+  background: url("../img/nav/ente.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-ente a:hover.ente-current {
+  background: url("../img/nav/ente.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-menn .menn-current {
+  background: url("../img/nav/menn.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav .pc-nav-menn a:hover.menn-current {
+  background: url("../img/nav/menn.png") no-repeat;
+  background-size: 60px;
+  background-position: center;
+  text-indent: -9999px
+}
+
+.shrink-nav2 {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.link {
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+}
+
+.link .toTop {
+  display: inline-block;
+  width: 34px;
+  height: 35px;
+  background: url("../img/pd/toolbars.png") no-repeat -50px -250px #7a6e6e;
+  z-index: 10;
+}
+
+.link .tab_text {
+  width: 50px;
+  height: 35px;
+  line-height: 35px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 微软雅黑;
+  position: absolute;
+  z-index: 1;
+  left: 35px;
+  top: 0px;
+  cursor: pointer;
+  background-color: rgb(122, 110, 110);
+  border-radius: 3px 0px 0px 3px;
+  transition: left 0.3s ease-in-out 0.1s
+}
+
+.link:hover .tab_text {
+  left: -50px;
+  top: 0px;
+  background-color: red;
+}
+
+.link:hover .toTop {
+  background-color: red;
+}
+
+/*时钟*/
+.clock {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
+
+#clock {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  list-style: none;
+  background: url('../img/pd/clock.png') no-repeat center;
+  /*background-size: 50%;*/
+  opacity: .2;
+}
+
+#seconds,
+#minutes,
+#hours {
+  position: absolute;
+  width: 30px;
+  height: 580px;
+  left: 270px;
+}
+
+#date {
+  position: absolute;
+  top: 365px;
+  color: #666;
+  right: 140px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#hours {
+  background: url('../img//pd/hands.png') no-repeat left;
+  z-index: 1000;
+}
+
+#minutes {
+  background: url('../img/pd/hands.png') no-repeat center;
+  width: 25px;
+  z-index: 2000;
+}
+
+#seconds {
+  background: url('../img/pd/hands.png') no-repeat right;
+  z-index: 3000;
+}

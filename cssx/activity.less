@@ -1,0 +1,83 @@
+section {
+  width: 100%;
+  min-width: 1280px;
+}
+
+#activity {
+  background: url(../img/bj/show.png);
+  margin-top: 80px;
+  height: 1000px;
+  overflow: hidden;
+  h1,h2{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+  }
+  h1{
+    margin-top: 40px;
+    font-size: 32px;
+  }
+
+  .activityUl {
+    position: relative;
+    width: 1100px;
+    margin: 26px auto;
+    li {
+      cursor: pointer;
+      position: absolute;
+      width: 248px;
+      padding: 10px;
+      //border: 1px solid #ccc;
+      box-sizing: border-box;
+      //opacity: 0.3;
+
+      .activityImg {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          transition: all 0.5s;
+        }
+        img:hover {
+          transform: scale(1.5);
+        }
+        .activityFont {
+          width: 100%;
+          position: absolute;
+          height: 40px;
+          bottom: 0;
+          background-color: #4c4c4c;
+          opacity: 0.6;
+          line-height: 40px;
+          text-align: center;
+          color: #ccc;
+          //border-top: 2px solid #ccc;
+          font-size: 20px;
+          font-family: iconfont;
+        }
+      }
+    }
+  }
+
+}
+#moveActivity{
+  height: 250px;
+
+  .moveActivityImg{
+    height: 100%;
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

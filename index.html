@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>烤天下-约你共享美食</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
+    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="css/model.css">
+    <link rel="stylesheet" href="./cssx/firstPage.css">
+    <link rel="stylesheet" href="./css/feature2.css">
+    <link rel="stylesheet" href="./cssx/style.css">
+    <link rel="stylesheet" href="cssx/huojian.css">
+
+    <style type="text/css">
+        .snow{
+            overflow: hidden;
+            position: relative;
+        }
+        body .navFirst .navContent .navList ul li:nth-child(1) a {
+              transition: all 0.5s;
+              background: url("img/nav/home.png") no-repeat;
+              background-size: 70px;
+              background-position: center;
+              text-indent: -9999px;
+          }
+        body .navFirst .navContent .navList ul li:nth-child(2) a:hover {
+            background: url("img/nav/food.png") no-repeat;
+            background-size: 70px;
+            background-position: center;
+            text-indent: -9999px;
+        }
+        body .navFirst .navContent .navList ul li:nth-child(3) a:hover {
+            background: url("img/nav/char.png") no-repeat;
+            background-size: 70px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+        body .navFirst .navContent .navList ul li:nth-child(4) a:hover {
+            background: url("img/nav/join.png") no-repeat;
+            background-size: 70px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+        body .navFirst .navContent .navList ul li:nth-child(5) a:hover {
+            background: url("img/nav/ente.png") no-repeat;
+            background-size: 70px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+
+
+        body .navFirst2 .navContent .navList ul li:nth-child(1) a {
+            transition: all 0.5s;
+            background: url("img/nav/home.png") no-repeat;
+            background-size: 60px;
+            background-position: center;
+            text-indent: -9999px;
+        }
+        body .navFirst2 .navContent .navList ul li:nth-child(2) a:hover {
+            background: url("img/nav/food.png") no-repeat;
+            background-size: 60px;
+            background-position: center;
+            text-indent: -9999px;
+        }
+        body .navFirst2 .navContent .navList ul li:nth-child(3) a:hover {
+            background: url("img/nav/char.png") no-repeat;
+            background-size: 60px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+        body .navFirst2 .navContent .navList ul li:nth-child(4) a:hover {
+            background: url("img/nav/join.png") no-repeat;
+            background-size: 60px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+        body .navFirst2 .navContent .navList ul li:nth-child(5) a:hover {
+            background: url("img/nav/ente.png") no-repeat;
+            background-size: 60px;
+            background-position: right;
+            text-indent: -9999px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="actGotop">
+    <img src="img/rocket.png" alt="">
+</div>
+<!--雪花背景-->
+<div class="snow" id='snowBox'>
+    <!--回到顶部-->
+        <!--<a id='backTopxx' href="#">></a>-->
+
+    <!--导航-->
+    <nav class='navFirst' id='navFirst'>
+        <div class='navContent'>
+            <div class='logo'>
+                <a href="index.html"><img src="./img/icon/site-brand.png" alt=""></a>
+            </div>
+            <div class='navList'>
+                <ul>
+                    <li><a href="index.html">首页</a><i>|</i></li>
+                    <li><a href="zxfood.html">招牌美食</a><i>|</i></li>
+                    <li><a href="activity.html">特色活动</a><i>|</i></li>
+                    <li><a href="join.html">招商加盟</a><i>|</i></li>
+                    <!--<li><a href="###">企业概况</a><i>|</i></li>-->
+                    <li><a href="relation.html">你好约吗</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--导航-->
+
+    <!--自己负责的内容自己在导航后面加！-->
+    <!--轮播图-->
+    <div id='rotation'>
+        <!--图片-->
+        <ul class='imm'>
+            <li class='111'><a href="###"><img src="./img/banner/slider-1.jpg" alt=""></a></li>
+            <li><a href="###"><img src="./img/banner/slider-2.jpg"></a></li>
+            <li><a href="###"><img src="./img/banner/slider-1.jpg" alt=""></a></li>
+            <li><a href="###"><img src="./img/banner/slider-2.jpg" alt=""></a></li>
+            <!--箭头-->
+            <div id='arrows'>
+                <div id='arrowsL'>
+                    <
+                </div>
+                <div id='arrowsR'>
+                    >
+                </div>
+            </div>
+        </ul>
+
+        <!--圆点-->
+        <ul class='circle' style='display: none;'>
+            <li class='white'></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--轮播图-->
+    <!--特色展示1-->
+    <section id='feature'>
+        <div id='zxTitle' class='item-titlezx'>
+            <h1 >特色展示</h1>
+            <h3>Featured display</h3>
+        </div>
+        <div id='happy'>
+            <div class='music'>
+                <div class='item-pad'></div>
+                <h2 class='item-titlezx'>音乐</h2>
+                <p class='item-titlezx'>啤酒让人麻醉，音乐让人清醒，摇摆灯光深 夜美味，低吟浅唱亦或是引亢高歌。手持啤酒，碌着烧烤，一起哼唱，充分释放</p>
+                <a href="###" class='item-titlezx'>了解更多></a>
+
+            </div>
+            <div class='beer'>
+                <div class='item-pad'></div>
+                <h2 class='item-titlezx'>啤酒</h2>
+                <p class='item-titlezx'>音乐和啤酒就是绝配，搭配天生的华尔兹舞步现场氛围快速升温，让您体验一样与众不同的烧烤盛宴，手持啤酒，碌着烧烤</p>
+                <a href="###" class='item-titlezx'>了解更多></a>
+            </div>
+            <div class='party'>
+                <div class='item-pad'></div>
+                <h2 class='item-titlezx'>聚会</h2>
+                <p class='item-titlezx'>啤酒让人麻醉，音乐让人清醒，摇摆灯光深 夜美味，低吟浅唱亦或是引亢高歌。手持啤酒，碌着烧烤，一起哼唱，充分释放</p>
+                <a href="###" class='item-titlezx'>了解更多></a>
+            </div>
+        </div>
+
+    </section>
+    <!--特色展示1-->
+    <!--特色展示2-->
+    <section id="bigMain">
+        <div id="main" class="container" >
+            <ul class="row" >
+                <li class="race"> <img src="img/602f01a4f00a82e8f4c2996e1520b95a.jpg" alt="赛车" width="300" height="450" />
+                    <div class="info item-titlezx">
+                        <h2>啤酒VS赛车</h2>
+                        <p>Chinadaily.com.cn is the largest English portal in China, providing news, business information, BBS, learning materials. The Website has channels as China...</p>
+                        <a href="###">More info</a>
+                    </div>
+                </li>
+                <li class="football">
+                    <img src="img/e78ff2f25dfd80914b24393e1c300fe2.jpg" alt="足球" width="300" height="450" />
+                    <div class="info item-titlezx">
+                        <h2>烧烤VS足球</h2>
+                        <p>Chinadaily.com.cn is the largest English portal in China, providing news, business information, BBS, learning materials. The Website has channels as China...</p>
+                        <a href="###">More info</a>
+                    </div>
+                </li>
+                <li class="friend"> <img src="img/5eb55bd2ac44e136eb930481eedcd133.jpg" alt="交友" width="300" height="450" />
+                    <div class="info item-titlezx">
+                        <h2>哈皮VS交友</h2>
+                        <p>Chinadaily.com.cn is the largest English portal in China, providing news, business information, BBS, learning materials. The Website has channels as China...</p>
+                        <a href="###">More info</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    <!--特色展示2-->
+    <!--tab栏新闻-->
+    <section id='newxx'>
+        <div id='newContent' class='item-titlezx'>
+            <h2 class='item-titlezx'>资 讯</h2>
+            <h3 class='item-titlezx'>News</h3>
+            <div id='store'>
+                <div id='storenews'>
+                    <h1>烤天下成都新店开张</h1>
+                    <p>个性定位，打造极致体验，新店开张火爆上海，要玩要嗨就来烤天下，预定电话 9999999</p>
+                    <p>07-20-2017</p>
+                </div>
+
+            </div>
+            <div class="inmain clr">
+                <div class="main_left">
+                    <h5>CateFlavor List</h5>
+                    <ul>
+                        <li class="rem_left1" rel="all">→ Whole</li>
+                        <li rel="sweet">→ Love sweet</li>
+                        <li rel="drink">→ Love Drink</li>
+                        <li rel="piquancy">→ Love piquancy</li>
+                        <li rel="meat">→ Love Meat</li>
+                        <li rel="fitness">→ Love fitness</li>
+                        <li rel="vegetarian">→ Love vegetarian</li>
+                        <li rel="other">→ Other</li>
+                    </ul>
+                </div>
+                <div class="main_right">
+                    <h5>bill of fare</h5>
+                    <ul>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet1.jpg" />1 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet2.jpg" />2 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet3.jpg" />3 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet4.jpg" />4 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet5.jpg" />5 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet6.jpg" />6 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet7.jpg" />7 Sweet</a></li>
+                        <li rel="sweet"><a href="#"><img src="img/sweet/sweet8.jpg" />8 Sweet</a></li>
+
+                        <li rel="drink"><a href="#"><img src="img/drink/drink1.jpg" />1 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink2.jpg" />2 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink3.jpg" />3 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink4.jpg" />4 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink5.jpg" />5 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink6.jpg" />6 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink7.jpg" />7 Drink</a></li>
+                        <li rel="drink"><a href="#"><img src="img/drink/drink8.jpg" />8 Drink</a></li>
+
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy1.jpg" />1 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy2.jpg" />2 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy3.jpg" />3 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy4.jpg" />4 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy5.jpg" />5 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy6.jpg" />6 piquancy</a></li>
+                        <li rel="piquancy"><a href="#"><img src="img/piquancy/piquancy7.jpg" />7 piquancy</a></li>
+
+                        <li rel="meat"><a href="#"><img src="img/Meat/meet1.jpg" />1 meat</a></li>
+                        <li rel="meat"><a href="#"><img src="img/Meat/meat2.jpg" />2 meat</a></li>
+                        <li rel="meat"><a href="#"><img src="img/Meat/meat3.jpg" />3 meat</a></li>
+                        <li rel="meat"><a href="#"><img src="img/piquancy/piquancy3.jpg" />4 meat</a></li>
+                        <li rel="meat"><a href="#"><img src="img/piquancy/piquancy4.jpg" />5 meat</a></li>
+                        <li rel="meat"><a href="#"><img src="img/piquancy/piquancy5.jpg" />6 meat</a></li>
+
+                        <li rel="vegetarian"><a href="#"><img src="img/Vegetarian/vegetarian1.jpg" />1 vegetarian</a></li>
+                        <li rel="vegetarian"><a href="#"><img src="img/Vegetarian/vegetarian2.jpg" />2 vegetarian</a></li>
+                        <li rel="vegetarian"><a href="#"><img src="img/Vegetarian/vegetarian3.jpg" />3 vegetarian</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness1.jpg" />1 fitness</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness2.jpg" />2 fitness</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness3.jpg" />3 fitness</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness4.jpg" />4 fitness</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness5.jpg" />5 fitness</a></li>
+                        <li rel="fitness"><a href="#"><img src="img/fitness/fitness6.jpg" />6 fitness</a></li>
+
+
+
+                        <!--<li rel="movies"><a href="#"><img src="images/port1.jpg" />2 River</a></li>-->
+                        <!--<li rel="movies"><a href="#"><img src="images/port1.jpg" />1 River</a></li>-->
+                        <!--<li rel="other"><a href="#"><img src="images/port3.jpg" />7 River</a></li>-->
+                        <!--<li rel="tools"><a href="#"><img src="images/port4.jpg" />3 River</a></li>-->
+                        <!--<li rel="fiction"><a href="#"><img src="images/port4.jpg" />3 River</a></li>-->
+                        <!--<li rel="music"><a href="#"><img src="images/port5.jpg" />5 River</a></li>-->
+                        <!--<li rel="game"><a href="#"><img src="images/port6.jpg" />6 River</a></li>-->
+                        <!--<li rel="tools"><a href="#"><img src="images/port7.jpg" />3 River</a></li>-->
+                        <!--<li rel="music"><a href="#"><img src="images/port8.jpg" />5 River</a></li>-->
+                        <!--<li rel="movies"><a href="#"><img src="images/port9.jpg" />4 River</a></li>-->
+                        <!--<li rel="fiction"><a href="#"><img src="images/port4.jpg" />3 River</a></li>-->
+                    </ul>
+                </div>
+            </div>
+
+            <!--<div id="storeColumn">-->
+                <!--<ul id='storeList'>-->
+                    <!--<li class='red'>新闻</li>-->
+                    <!--<li>活动</li>-->
+                    <!--<li>优惠</li>-->
+                    <!--<li>推荐</li>-->
+                    <!--<li>新品</li>-->
+                <!--</ul>-->
+                <!--<div class='storeShow aa'>-->
+                    <!--<p>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</p>-->
+                    <!--<div class='storeContent'>-->
+                        <!--<img src="../img/hd/hd-7.jpg" alt="">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class='aa'>-->
+                    <!--<p>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</p>-->
+                    <!--<div class='storeContent'>-->
+                        <!--<img src="../img/hd/hd-8.jpg" alt="">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class='aa'>-->
+                    <!--<p>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</p>-->
+                    <!--<div class='storeContent'>-->
+                        <!--<img src="../img/hd/hd-9.jpg" alt="">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class='aa'>-->
+                    <!--<p>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</p>-->
+                    <!--<div class='storeContent'>-->
+                        <!--<img src="../img/hd/hd-11.jpg" alt="">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class='aa'>-->
+                    <!--<p>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</p>-->
+                    <!--<div class='storeContent'>-->
+                        <!--<img src="../img/hd/hd-12.jpg" alt="">-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+        </div>
+    </section>
+    <!--tab栏新闻-->
+    <!--vedio视频-->
+    <section id='vedio'>
+       <div id='player'>
+           <div class='player1'>
+               <video src="video/food5.mp4"  class='video1'>
+
+               </video></div>
+           <div class='player1'>
+               <video src="video/food5.mp4" class='video2'></video></div>
+           <div class='player1'>
+               <video src="video/food5.mp4" class='video3'></video></div>
+           <div class='player1'>
+               <video src="video/food5.mp4" class='video4'></video></div>
+       </div>
+
+    </section>
+    <!--vedio视频-->
+    <!--Taste-->
+    <section id='taste'>
+        <div id="hai">
+            <div class='getTaste '></div>
+            <h1 class='item-titlezx'>要味道</h1>
+            <h3 class='item-titlezx'>一店撸遍全球，现串现烤，想怎么吃就怎么吃。鲜香麻辣，浓油赤酱，满足每个挑剔的吃货。尽情撸串，酣畅淋漓，体味人间美食。</h3>
+            <div class='tasteImg'></div>
+            <h1 class='item-titlezx'>更要腔调</h1>
+            <h3 class='item-titlezx'>大口撸串，放肆喝酒，尽情high唱，这里没有规矩，没有界限，追求自由和释放才是属于年轻人自己的腔调。</h3>
+            <div class='tasteImg2'></div>
+            <div class='tasteSpeed'>
+                <div>
+                    <img class='tasteSpeedImg' src="./img/icon/f-1.png" alt="">
+                    <h3 class='footColor cc'>半成品输出，极速配送</h3>
+                </div>
+                <div>
+                    <img class='tasteSpeedImg' src="./img/icon/f-2.png" alt="">
+                    <h3 class='footColor cc'>半成品输出，极速配送</h3>
+                </div>
+                <div>
+                    <img class='tasteSpeedImg' src="./img/icon/f-3.png" alt="">
+                    <h3 class='footColor cc'>半成品输出，极速配送</h3>
+                </div>
+                <div>
+                    <img class='tasteSpeedImg' src="./img/icon/f-4.png" alt="">
+                    <h3 class='footColor cc'>半成品输出，极速配送</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Taste-->
+<!--foot-->
+    <footer>
+        <h1>©AUI 素材网 沪ICP备15006025号-1</h1>
+        <h3>Copyright © 2012-2016 www.a-ui.cn 地址：上海市浦东新区航都路18号</h3>
+    </footer>
+<!--foot-->
+</div>
+
+
+
+
+<script src='js/jquery-3.1.1.min.js'></script>
+<script src='js/model.js'></script>
+<!--<script src='./js/bootstrap.min.js'></script>-->
+<script src="js/snow.js"></script>
+<!--<script src='./jsx/firstPage.js'></script>-->
+<script src='jsx/lunboStyle2.js'></script>
+<script src='jsx/tjsp.js'></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+section {
+  width: 100%;
+  min-width: 1280px;
+}
+#developFood {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url(../img/bj/show.png);
+  margin-top: 80px;
+}
+#developFood .culture {
+  display: block;
+  width: 100%;
+  font-size: 26px;
+  color: #a7aea7;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#developFood #timeline2 #dates li a {
+  color: white;
+}
+#developFood #timeline2 #dates li .selected {
+  color: #FFCC00;
+}
+#developFood #timeline2 #issues p {
+  color: white;
+}
+#itemFood {
+  margin-top: 40px;
+}
+#itemFood h1,
+#itemFood h2 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+#itemFood h2 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+#itemFood .container .row div {
+  margin-bottom: 15px;
+}
+#itemFood .container .row div a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+#itemFood .container .row div a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#itemFood .container .row div a img:hover {
+  transform: scale(2);
+  transition: all 0.5s;
+}
+#itemFood .container .row div a h3 {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #E4007F;
+  padding-top: 15px;
+  color: white;
+  font-size: 16px;
+}
+footer {
+  position: relative;
+  bottom: 0px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  min-width: 1366px;
+  height: 122px;
+  background-color: #0A0A0A;
+}
+footer h1,
+footer h3 {
+  margin-top: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+#coverFood {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: 350;
+  overflow: hidden;
+}
+.food-q {
+  display: none;
+  z-index: 400;
+  position: fixed;
+  width: 600px;
+  height: 520px;
+  top: 50%;
+  left: 50%;
+  margin-top: -260px;
+  margin-left: -300px;
+  padding: 10px 25px;
+  background-color: #282828;
+}
+.food-q .foodContent {
+  width: 100%;
+  height: 100%;
+}
+.food-q .foodContent h1,
+.food-q .foodContent h2,
+.food-q .foodContent h3 {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: iconfont;
+}
+.food-q .foodContent h1 {
+  font-size: 16px;
+}
+.food-q .foodContent h2,
+.food-q .foodContent h3 {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.food-q .foodContent p {
+  font-family: iconfont;
+  color: white;
+}
+.food-q .foodContent img {
+  margin: 10px auto;
+  width: 500px;
+  height: 250px;
+  display: block;
+}
+#xxx {
+  z-index: 999;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 32px;
+  text-decoration: none;
+  display: block;
+}
